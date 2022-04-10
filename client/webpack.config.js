@@ -32,11 +32,11 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerPrints: false,
         inject: true,
-        name: 'Jate-file',
-        short_name: 'jate',
+        name: 'Just another text editor',
+        short_name: 'J.A.T.E',
         description: 'Text Editor',
-        background_color: '#a36922',
-        theme_color: '#a36922',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
         start_url: '/',
         publicPath: '/',
         icons: [
