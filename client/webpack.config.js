@@ -21,7 +21,7 @@ module.exports = () => {
       // html plugin
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'jate'
+        title: 'J.A.T.E'
       }),
       // custom service worker
       new InjectManifest({
